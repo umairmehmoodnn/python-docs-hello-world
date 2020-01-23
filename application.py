@@ -38,7 +38,7 @@ def test():
     #df = pd.read_excel(w_dir + 'example7.xlsx')
     dash_app1 = dash.Dash(__name__, server = app, external_stylesheets = external_stylesheets, url_base_pathname='/dashboard/')
     dash_app1.layout = html.Div(style={'backgroundColor': colors['background']}, children =[
-    html.H1("SII-sensitivities", style={"fontWeight": "bold", "textAlign": "center", 'color' : 'orange'}),
+    html.H1("SII-sensitivities commit", style={"fontWeight": "bold", "textAlign": "center", 'color' : 'orange'}),
     
     html.Div([
         html.Div([
